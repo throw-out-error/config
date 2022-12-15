@@ -1,0 +1,33 @@
+{
+	"name": "@throw-out-error/config-eslint",
+	"version": "0.0.1",
+	"description": "eslint configuration files",
+	"type": "module",
+	"main": "src/index.js",
+	"files": [
+		"src"
+	],
+	"private": false,
+	"repository": "throw-out-error/config",
+	"peerDependencies": {
+		"eslint": "^8.29.0",
+		"eslint-import-resolver-node": "^0.3.6",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prefer-arrow": "^1.2.3",
+		"eslint-plugin-react": "^7.31.11",
+		"eslint-plugin-react-hooks": "^4.6.0"
+	},
+	"devDependencies": {
+		"eslint": "^8.29.0",
+		"eslint-import-resolver-node": "^0.3.6",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prefer-arrow": "^1.2.3",
+		"eslint-plugin-react": "^7.31.11",
+		"eslint-plugin-react-hooks": "^4.6.0"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"formatter-config"
+	]
+}

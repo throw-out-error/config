@@ -1,0 +1,41 @@
+{
+	"name": "@throw-out-error/config",
+	"type": "module",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"lint": "eslint .",
+		"format": "prettier --check .",
+		"prepublishOnly": "npm run format && npm run lint",
+		"commit": "cz"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.3.0",
+		"@commitlint/config-conventional": "^17.3.0",
+		"@throw-out-error/config-eslint": "*",
+		"commitizen": "^4.2.6",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^8.29.0",
+		"eslint-import-resolver-node": "^0.3.6",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-prefer-arrow": "^1.2.3",
+		"eslint-plugin-react": "^7.31.11",
+		"eslint-plugin-react-hooks": "^4.6.0",
+		"husky": "^8.0.2",
+		"lerna": "^6.1.0",
+		"prettier": "^3.0.0-alpha.4",
+		"semantic-release": "^19.0.5"
+	},
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"release": {
+		"branches": [
+			"main",
+			"next"
+		]
+	}
+}
