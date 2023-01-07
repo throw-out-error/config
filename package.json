@@ -25,7 +25,7 @@
 		"husky": "^8.0.2",
 		"lerna": "^6.1.0",
 		"prettier": "^3.0.0-alpha.4",
-		"semantic-release": "^19.0.5"
+		"semantic-release": "^20.0.0"
 	},
 	"config": {
 		"commitizen": {
